@@ -1,15 +1,15 @@
 var size = 0;
 function categories_Boreholes(feature, value) {
-                switch(value) {case "14-Sep":
+                switch(value) {case "February 2017":
                     return [ new ol.style.Style({
-        image: new ol.style.Circle({radius: 5.2 + size,
-            stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: "rgba(247,255,7,1.0)"})})
+        image: new ol.style.Circle({radius: 4.0 + size,
+            stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: "rgba(255,255,1,1.0)"})})
     })];
                     break;
-case "17-Feb":
+case "September 2014":
                     return [ new ol.style.Style({
-        image: new ol.style.Circle({radius: 5.2 + size,
-            stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: "rgba(52,255,1,1.0)"})})
+        image: new ol.style.Circle({radius: 4.0 + size,
+            stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: "rgba(44,253,2,1.0)"})})
     })];
                     break;}};
 var styleCache_Boreholes={}

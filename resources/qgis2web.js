@@ -66,7 +66,16 @@ var map = new ol.Map({
     })
 });
 
-map.getView().fit([1280006.284659, -476540.089558, 1317548.319799, -450360.555076], map.getSize());
+    var searchLayer = new ol.SearchLayer({
+      layer: lyr_Boreholes,
+      colName: 'Name',
+      zoom: 10,
+      collapsed: true,
+      map: map
+    });
+
+    map.addControl(searchLayer);
+map.getView().fit([1279684.584406, -476540.089558, 1317286.399857, -450360.555076], map.getSize());
 
 var NO_POPUP = 0
 var ALL_FIELDS = 1
